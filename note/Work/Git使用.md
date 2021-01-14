@@ -3,11 +3,24 @@
 ## git基本操作
 
 ```shell
-## git init - 初始化仓库。
+## 克隆远程仓库到本地
+git clone 远程仓库地址 (localDirectory)
 
-## git add . - 添加文件到暂存区。
+## 初始化仓库
+git init 
 
-## git commit - 将暂存区内容添加到仓库中。
+## 添加文件到暂存区
+git add .
+
+##  将暂存区内容添加到仓库中。
+git commit -m"XXX"
+git commit
+
+## 如果是本地项目推到远程仓库需要执行以下命令
+git remote add origin 仓库地址
+
+## 将暂存区内容推到origin上
+git push origin 自己的开发分支
 ```
 
 
@@ -56,6 +69,5 @@ git push
 ## 通过reset的方式，把head指针指向之前的某次提交，reset之后，后面的版本就找不到了
 
 ## revert不会把版本往前回退，而是生成一个新的版本。所以，你只需要让别人更新一下代码就可以了，你之前操作的提交记录也会被保留下来
-
 ```
 
