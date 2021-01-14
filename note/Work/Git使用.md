@@ -36,3 +36,26 @@ git push origin ...
 
 
 
+## git回退版本
+
+```shell
+## 1.寻找需要回退到之前的版本号
+git log
+
+## 2.使用reset或者revert将版本回退
+git reset --hard 版本号
+git revert -n 版本号
+
+## 3.强制push到对应的远程分支（如提交到develop分支）
+git push -f -u origin develop
+
+## 3.提交并推送远程分支。通知其他人更新代码
+git commit -m XXX
+git push
+
+## 通过reset的方式，把head指针指向之前的某次提交，reset之后，后面的版本就找不到了
+
+## revert不会把版本往前回退，而是生成一个新的版本。所以，你只需要让别人更新一下代码就可以了，你之前操作的提交记录也会被保留下来
+
+```
+
