@@ -24,3 +24,20 @@ redis-cli
 ## 分别为mongo及redis的连接使用方式
 ```
 
+
+
+```shell
+## 启动容器
+docker start CONTAINER
+
+## 停止运行的容器
+docker stop CONTAINER
+
+## 重启容器
+dokcer restart CONTAINER
+
+```
+
+**Docker命令大全**
+
+https://www.runoob.com/docker/docker-command-manual.html
