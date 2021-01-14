@@ -16,7 +16,7 @@ thrift -I ../../../util/idl -gen go:package_prefix=code.ibanyu.com/server/go/uti
 ../../../util/idl 当前电脑绝对路径为：/Users/zhaofanguo/go/util_thrift/idl
 ```
 
-
+修改完成后需要对Adapter内函数进行相应修改，增加时需要手动添加一个func
 
 
 
