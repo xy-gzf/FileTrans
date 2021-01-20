@@ -21,6 +21,13 @@ git remote add origin 仓库地址
 
 ## 将暂存区内容推到origin上
 git push origin 自己的开发分支
+
+## 删除分支 本地/远程
+git branch -d 分支
+git push origin --delete Chapater6
+
+## 查看所有分支（包括远程）
+git branch -a
 ```
 
 
