@@ -12,6 +12,7 @@ docker ps
 ## 运行容器
 docker run -itd --name mongo -p 27017:27017 mongo --auth
 docker run -itd --name redis-test -p 6379:6379 redis
+docker start (container id)
 
 ## 进入容器
 docker exec -it mongo mongo admin
@@ -22,6 +23,9 @@ db.auth('admin', '123456')
 redis-cli
 
 ## 分别为mongo及redis的连接使用方式
+
+## 操作方式链接
+https://www.runoob.com/docker/docker-container-usage.html
 ```
 
 
