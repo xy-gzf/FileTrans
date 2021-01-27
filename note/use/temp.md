@@ -22,10 +22,11 @@ https://gitlab.pri.ibanyu.com/server/dbmetadata/service/issues/2
 
 2. app服务开发通用的客户端日志回捞功能
 
+	
+
 
 3. 语音识别任务消息队列改造
 asrtask asr
-
 
 
 ```
