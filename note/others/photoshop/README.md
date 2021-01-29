@@ -37,7 +37,7 @@
 
 创建新的填充或调整图层
 
-<img src="https://img-blog.csdnimg.cn/20210120193119177.png" alt="创建新的填充或调整图层" style="zoom: 30%; width: 20%; float: left" />
+<img src="https://img-blog.csdnimg.cn/20210120193119177.png" alt="创建新的填充或调整图层" width="20%" float="left" />
 
 1. 曲线
 
