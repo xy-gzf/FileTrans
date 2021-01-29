@@ -16,7 +16,7 @@
 
 事务，我们简单来说就是一组（一条或多条）sql语句。要么全部执行成功，要么全部执行失败。因此转账案例是最典型的例子。
 
-<img src="https://img-blog.csdnimg.cn/2021012910184474.jpg" alt="" style="width:50%">
+<img src="https://img-blog.csdnimg.cn/2021012910184474.jpg" alt="风景图" width="50%">
 
 经常面试的朋友就会知道，事务这里是必问的内容。首先就是其四大特性ACID。
 
@@ -79,9 +79,7 @@
 
 在mysql中，默认的隔离级别是可重复读。其中各个隔离级别会产生如图所示的问题：
 
-
-
-<img src="https://img-blog.csdnimg.cn/20200926182152329.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMzYwNzgw,size_16,color_FFFFFF,t_70#pic_center" alt="隔离级别" style=""/>
+<img src="https://img-blog.csdnimg.cn/20200926182152329.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMzYwNzgw,size_16,color_FFFFFF,t_70#pic_center" alt="隔离级别" width="100%" style=""/>
 
 
 
