@@ -37,7 +37,7 @@
 
 创建新的填充或调整图层
 
-<img src="https://img-blog.csdnimg.cn/20210120193119177.png" alt="创建新的填充或调整图层" style="zoom: 30%; width: 20%; float: left" />
+<img src="https://img-blog.csdnimg.cn/20210120193119177.png" alt="创建新的填充或调整图层" width="30%" style="float:left;" />
 
 1. 曲线
 
@@ -53,7 +53,7 @@
 
 设置后，填充会有一个小箭头，只对下一层图片生效
 
-<img src="https://img-blog.csdnimg.cn/20210120193836770.png" alt="创建剪切蒙版" style="zoom: 33%; width: 20%; float: left" />
+<img src="https://img-blog.csdnimg.cn/20210120193836770.png" alt="创建剪切蒙版" width="30%" style="float: left" />
 
 使用这种方式既方便随意条件，又没有破坏原始素材本身。
 
