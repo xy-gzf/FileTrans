@@ -11,7 +11,7 @@
 source ~/.bash_profile
 
 ## 使用thrift生成命令
-thrift -I ../../../util/idl -gen go:package_prefix=code.ibanyu.com/server/go/util.git/idl/gen-go/ Xxx.thrift
+thrift -I ../../util_thrift/idl -gen go:package_prefix=code.ibanyu.com/server/go/util.git/idl/gen-go/ Xxx.thrift
 
 ../../../util/idl 当前电脑绝对路径为：/Users/zhaofanguo/go/util_thrift/idl
 ```
