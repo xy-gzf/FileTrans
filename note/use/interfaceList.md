@@ -12,6 +12,9 @@ rpc：
 	"okr"			: okr系统
 	"app" 			: 对外app 
 	"dbmetadata"    : 数据库平台
+	"storage" 		: 文件存储服务
+	"organization"  : 组织架构微服务。查询员工、部门信息等
+	"uauth"  		: 内部鉴权
 
 http：
 	"qtapi"  		: 对内系统http
@@ -20,12 +23,6 @@ http：
 ```
 
 
-
-```json
-"storage" 		: 文件存储服务
-"organization"  : 组织架构微服务。查询员工、部门信息等
-"uauth"  		: 内部鉴权
-```
 
 
 

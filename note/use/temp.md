@@ -6,6 +6,8 @@ jetBrains账号
 号merritroljzkqi@yahoo.com
 
 密178lncom!@#123456(括号里面不用复制，为了防止多复制空格)
+
+账号：flofxzcffsk@yahoo.com密码91qwfyCNYB
 ```
 
 
@@ -22,11 +24,10 @@ https://gitlab.pri.ibanyu.com/server/dbmetadata/service/issues/2
 
 2. app服务开发通用的客户端日志回捞功能
 
-	
-
 
 3. 语音识别任务消息队列改造
-asrtask asr
+	asrtask		asr任务发布服务
+	asr			自研语音识别引擎
 
 
 ```
