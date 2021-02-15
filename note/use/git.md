@@ -28,6 +28,9 @@ git push origin --delete Chapater6
 
 ## 查看所有分支（包括远程）
 git branch -a
+
+## 远程分支代码同步到本地当前分支上
+git merge --squash 远程分支名
 ```
 
 
