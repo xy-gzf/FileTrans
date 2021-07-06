@@ -11,12 +11,13 @@ docker ps
 
 ## 运行容器
 docker run -itd --name mongo -p 27017:27017 mongo --auth
-docker run -itd --name redis-test -p 6379:6379 redis
+docker run -itd --name redis -p 6379:6379 redis
+# docker run --name=redis --detach=true --publish=6379:6379 redis
 docker start (container id)
 
 ## 进入容器
 docker exec -it mongo mongo admin
-docker exec -it redis-test /bin/bash
+docker exec -it redis /bin/bash
 
 ## 连接容器
 db.auth('admin', '123456')
