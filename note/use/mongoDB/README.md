@@ -18,6 +18,18 @@ db.dropDatabase()
 
 
 
+mongoDB对应sql的概念
+
+| SQL术语/概念 | MongoDB术语/概念 | 解释/说明                           |
+| :----------- | :--------------- | :---------------------------------- |
+| database     | database         | 数据库                              |
+| table        | collection       | 数据库表/集合                       |
+| row          | document         | 数据记录行/文档                     |
+| column       | field            | 数据字段/域                         |
+| index        | index            | 索引                                |
+| table joins  |                  | 表连接,MongoDB不支持                |
+| primary key  | primary key      | 主键,MongoDB自动将_id字段设置为主键 |
+
 ## 集合
 
 ```mysql
@@ -84,6 +96,7 @@ db.COLLECTION_NAME.save(document) ## 新版本已废弃
 - 插入示例
 
     ```mysql
+    ## 直接插入
     db.col.insert({title: 'MongoDB 教程', 
         description: 'MongoDB 是一个 Nosql 数据库',
         by: '菜鸟教程',
@@ -93,7 +106,8 @@ db.COLLECTION_NAME.save(document) ## 新版本已废弃
     })
     
     
-    ## 将数据定义为一个变量
+    
+    ## 将数据定义为一个变量，插入变量
     document=({title: 'MongoDB 教程', 
         description: 'MongoDB 是一个 Nosql 数据库',
         by: '菜鸟教程',

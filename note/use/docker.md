@@ -12,7 +12,7 @@ docker ps
 ## 运行容器
 docker run -itd --name mongo -p 27017:27017 mongo --auth
 docker run -itd --name redis -p 6379:6379 redis
-# docker run --name=redis --detach=true --publish=6379:6379 redis
+docker run --name=redis --detach=true --publish=6379:6379 redis   //redis运行并打开其他端口对其访问
 docker start (container id)
 
 ## 进入容器
@@ -20,7 +20,7 @@ docker exec -it mongo mongo admin
 docker exec -it redis /bin/bash
 
 ## 连接容器
-db.auth('admin', '123456')
+db.auth('admin', '123456')   //mongoDB用户身份验证，目前docker中用户名密码都为root
 redis-cli
 
 ## 分别为mongo及redis的连接使用方式

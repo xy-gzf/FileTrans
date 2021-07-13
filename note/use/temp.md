@@ -12,23 +12,9 @@ jetBrains账号
 
 
 
-```go
-1. 解db集群管理服务的慢请求
-https://gitlab.pri.ibanyu.com/server/dbmetadata/service/issues/2
-集群管理服务慢请求页面 https://sea-test.pri.ibanyu.com/dbasys/metadata/mongo
-这个服务对应的api在dbapi
-
-	sbase.Servname()  =>  "base.dbmetadata"
-	rsaPrivateKeyPath = "/Users/zhaofanguo/go/dbmetadataservice_SlowReq/docker/rsa_db.pem"
-	
-
-2. app服务开发通用的客户端日志回捞功能
 
 
-3. 语音识别任务消息队列改造
-	asrtask		asr任务发布服务
-	asr			自研语音识别引擎
 
 
-```
+
 
