@@ -22,18 +22,32 @@ git remote add origin 仓库地址
 ## 将暂存区内容推到origin上
 git push origin 自己的开发分支
 
+## 远程分支代码同步到本地当前分支上
+git merge --squash 远程分支名
+
+```
+
+
+
+## git管理操作
+
+```shell
 ## 删除分支 本地/远程
 git branch -d 分支
 git push origin --delete Chapater6
 
-## 查看所有分支（包括远程）
-git branch -a
-
 ## 更新本地git分支保持和远程分支一致
 git remote update origin --prune
 
-## 远程分支代码同步到本地当前分支上
-git merge --squash 远程分支名
+## 查看所有分支（包括远程）
+git branch -a
+
+## 查看连接远程仓库地址
+git remote -v
+
+## 本地库设置个人信息 
+git config --global user.name "你的姓名，最好由没有符合和空格的英文字母组成"
+git config --global user.email <邮件名>@<邮箱服务商后缀>
 ```
 
 
